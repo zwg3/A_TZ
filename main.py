@@ -2,7 +2,7 @@ from collections import defaultdict
 
 input_list = []
 
-with open("lng1.txt", "r") as file:
+with open("lng.txt", "r") as file:
     reader = file.readlines()
     for i in reader:
         input_list.append(i.strip().split(";"))
